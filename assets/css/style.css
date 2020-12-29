@@ -273,6 +273,7 @@ h6 {
 
 /* Get Startet Button */
 .get-started-btn {
+  display: flex;
   margin-left: 22px;
   background: #4169e1;
   color: #fff;
@@ -281,7 +282,13 @@ h6 {
   white-space: nowrap;
   transition: 0.3s;
   font-size: 14px;
-  display: inline-block;
+  align-items: center;
+  justify-content: center;
+}
+
+.get-started-btn i {
+  margin: 3px;
+  font-size: 20px;
 }
 
 .get-started-btn:hover {
