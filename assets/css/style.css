@@ -417,8 +417,8 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 80vh;
-  background: url("../img/hero-bg.jpg") top center;
+  height: 85vh;
+  background: url("../img/hero-bg23.png") top center;
   background-size: cover;
   position: relative;
 }
@@ -444,18 +444,32 @@ h6 {
 }
 
 #hero h1 {
-  margin: 0;
-  font-size: 48px;
+  margin-bottom: 20px;
+  font-size: 96px;
   font-weight: 700;
-  line-height: 56px;
+  line-height: 90px;
   color: #fff;
   font-family: "Poppins", sans-serif;
 }
 
 #hero h2 {
-  color: #eee;
+  color: #ffca07;
+  margin: 10px 0 0 0;
+  font-size: 84px;
+}
+
+#hero h3 {
+  color: #ffca07;
   margin: 10px 0 0 0;
   font-size: 24px;
+}
+
+#hero h4 {
+  display: flex;
+  align-items: flex-end;
+  color: #fff;
+  margin: 10px 0 20px;
+  font-size: 18px;
 }
 
 #hero .btn-get-started {
@@ -485,15 +499,29 @@ h6 {
 
 @media (max-width: 768px) {
   #hero {
-    height: 100vh;
+    height: 85vh;
   }
   #hero h1 {
-    font-size: 28px;
+    font-size: 48px;
     line-height: 36px;
+    margin-top: 10px;
   }
   #hero h2 {
-    font-size: 18px;
+    font-size: 36px;
     line-height: 24px;
+  }
+  #hero h3 {
+    color: #ffca07;
+    margin: 10px 0 0 0;
+    font-size: 24px;
+  }
+  
+  #hero h4 {
+    display: flex;
+    align-items: flex-end;
+    color: #fff;
+    margin: 10px 0 20px;
+    font-size: 18px;
   }
 }
 
