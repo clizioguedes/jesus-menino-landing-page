@@ -26,8 +26,7 @@ h1,
 h2,
 h3,
 h4,
-h5,
-h6 {
+h5 {
   font-family: "Raleway", sans-serif;
 }
 
@@ -515,7 +514,7 @@ h6 {
     margin: 10px 0 0 0;
     font-size: 24px;
   }
-  
+
   #hero h4 {
     display: flex;
     align-items: flex-end;
